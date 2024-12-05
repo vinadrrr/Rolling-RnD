@@ -1,0 +1,28 @@
+/* h2{
+    color: blue;
+}
+
+body{
+    background-color: black;
+} */
+
+body{
+    width: 100vw;
+    height: 100vh; /* biar jd full */
+    display: flex; /*Template ngetengahin mulaid dari sini*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("");
+    background-size: cover;  /*Biar 1 gambar fit*/
+}
+
+.login{ /* kalo class pakai ., kalo id pakai # */
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 1rem ;
+}
